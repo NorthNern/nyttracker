@@ -3,6 +3,7 @@ var express = require("express");
 var bodyParser = require("body-parser");
 var logger = require("morgan");
 var mongoose = require("mongoose");
+var session = require('express-session');
 
 // Require Article schema
 var Article = require("./models/Article.js");
